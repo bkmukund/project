@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - openjdk7
+  - openjdk6
+  
+  notifications:
+  recipients:
+    - bal.mukund4u@gmail.com
+    - bmukund@nuodb.com
