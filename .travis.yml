@@ -1,0 +1,16 @@
+language: java
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
+  
+  notifications:
+  recipients:
+    - bal.mukund4u@gmail.com
+    - bmukund@nuodb.com
+    
+    gem install travis-lint
+    
+    # inside a repository with .travis.yml
+travis-lint
